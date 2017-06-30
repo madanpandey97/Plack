@@ -12,13 +12,13 @@
             <div class="row wow fadeIn" data-wow-delay="0.2s">
                 <div class="col-md-12">
                     <div class="jumbotron">
-                        <h2 class="h2-responsive">Material Design for Bootstrap</h2>
+                        <h2 class="h2-responsive">Get Social | A medium to connect people</h2>
                         <br>
-                        <p>Powerful and free Material Design UI KIT</p>
+                        <p>We provide best feature to our user.</p>
                         <hr>
-                        <p>Register for free and get access to amazing framework and beautiful components</p>
-                        <a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-mdb btn-stc" data-toggle="modal" data-target="#modalLRFormDemo" rel="nofollow">Download <i class="fa fa-download right"></i></a>
-                        <a target="_blank" href="http://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-unique btn-ptc" rel="nofollow">Learn more <i class="fa fa-book right"></i></a>
+                        <p>Register for free and get access to amazing social application with  beautiful user interface</p>
+                        <a  href="" class="btn btn-mdb btn-stc" data-toggle="modal" data-target="#modalLRFormDemo" rel="nofollow">Login<i class="fa fa-user right"></i></a>
+                        <a target="_blank" href="" class="btn btn-unique btn-ptc" rel="nofollow">Know How<i class="fa fa-book right"></i></a>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
 
                         <!--Card image-->
                         <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20(3).jpg" class="img-fluid" alt="">
+                            <img src="img/sc.jpg" class="img-fluid" alt="">
                             <a href="#">
                                 <div class="mask"></div>
                             </a>
@@ -64,7 +64,7 @@
 
                         <!--Card image-->
                         <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20(1).jpg" class="img-fluid" alt="">
+                            <img src="img/smo.jpg" class="img-fluid" alt="">
                             <a href="#">
                                 <div class="mask"></div>
                             </a>
@@ -93,7 +93,7 @@
 
                         <!--Card image-->
                         <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Architecture/4-col/img%20(4).jpg" class="img-fluid" alt="">
+                            <img src="img/pp.jpg" class="img-fluid" alt="">
                             <a href="#">
                                 <div class="mask"></div>
                             </a>

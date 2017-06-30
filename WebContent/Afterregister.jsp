@@ -1,82 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Afterregister</title>
+<%@include  file="base.jsp" %>
 
-<!-- Font Awesome -->
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-
-<!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Material Design Bootstrap -->
-<link href="css/mdb.min.css" rel="stylesheet">
-
-<!-- Template styles -->
-<style>
-/* TEMPLATE STYLES */
-main {
-	padding-top: 3rem;
-	padding-bottom: 2rem;
-}
-
-.extra-margins {
-	margin-top: 1rem;
-	margin-bottom: 2.5rem;
-}
-
-.jumbotron {
-	text-align: center;
-}
-
-.navbar {
-	background-color: #3b295a;
-}
-
-footer.page-footer {
-	background-color: #3b295a;
-	margin-top: 2rem;
-}
-</style>
-
-</head>
-<body>
-
-	<header>
-		<nav
-			class="navbar fixed-top  navbar-toggleable-md navbar-dark default-color">
-			<div class="container">
-				<button class="navbar-toggler navbar-toggler-right" type="button"
-					data-toggle="collapse" data-target="#navbarNav3"
-					aria-controls="navbarNav3" aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<a class="navbar-brand" href="#"> <strong>AngelGo</strong>
-				</a>
-				<div class="collapse navbar-collapse" id="navbarNav3">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active"><a
-							class="nav-link waves-effect waves-light"><i
-								class="fa fa-envelope"></i> Contact</a></li>
-						<li class="nav-item"><a
-							class="nav-link waves-effect waves-light" data-toggle="modal"
-							data-target="#modalLRFormDemo"><i class="fa fa-gear"></i>
-								Login</a></li>
-						<li class="nav-item"><a
-							class="nav-link waves-effect waves-light" data-toggle="modal"
-							data-target="#modalLRForm"><i class="fa fa-gear"></i> SignUp</a>
-						</li>
-
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
 	<main>
 		<div class="container">
 			<p>
@@ -111,7 +34,7 @@ footer.page-footer {
 
 							<!--Body-->
 							<div class="modal-body mb-1">
-								<form action="LoginServlet" method="POST">
+								<form action="Login" method="POST">
 	                                    <div class="md-form form-sm">
 	                                        <i class="fa fa-envelope prefix"></i>
 	                                        <input type="text" id="form2" class="form-control" name="email">
